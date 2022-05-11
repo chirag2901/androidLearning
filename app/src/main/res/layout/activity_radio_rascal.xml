@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".RadioRascal"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative_1"
+        android:background="#fff"
+
+        >
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:id="@+id/tv_view"
+        android:background="#000"
+        android:layout_marginTop="60dp"
+
+
+
+       />
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:id="@+id/tv_img"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/menu"
+
+            />
+
+        <!--<ImageView
+            android:id="@+id/tv_boyrock"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/boyrock" />-->
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/relative_2"
+        android:layout_below="@+id/relative_1"
+        android:background="#EC0F0F"
+        android:padding="30dp"
+
+        >
+        <android.widget.Button
+            android:id="@+id/tv_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/btn_rascal"
+
+            android:text="Orin WoodWard"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            />
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_btn2"
+            android:layout_below="@id/tv_btn1"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="20dp"
+            android:background= "@drawable/btn_rascal"
+            android:text="Subject Search"
+            android:textSize="20dp"
+
+            android:textStyle="italic"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            />
+
+
+        <!--<View
+    android:layout_width="match_parent"
+    android:layout_height=""
+    android:id="@+id/tv_view2"
+    belo
+    />-->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/relative_3"
+        android:layout_below="@+id/relative_2"
+        android:background="#C3C9D5"
+        android:layout_centerHorizontal="true"
+
+
+        >
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_btn3"
+            android:background="@drawable/btn_rascalstudio"
+            android:layout_marginHorizontal="90dp"
+            android:layout_marginTop="40dp"
+            android:text="Orin WoordWard"
+            android:textColor="#EF9494"
+            android:textSize="20dp"
+
+            android:textStyle="italic"
+            />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_studio"
+        android:background="@drawable/studioperfect"
+        android:layout_centerInParent="true"
+android:layout_marginVertical="20sp"
+        />
+     <!--   <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_timer"
+            android:layout_below="@id/tv_studio"
+            android:background="@drawable/timer"
+            android:layout_marginHorizontal="80dp"
+            android:paddingHorizontal="20dp"
+            />-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_0"
+            android:text="00:00  "
+            android:textSize="20sp"
+            android:textColor="#E35555"
+            android:layout_below="@+id/tv_studio"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="80dp"
+
+            />
+        <View
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:id="@+id/tv_bar"
+            android:background="#000"
+            android:layout_toRightOf="@id/tv_0"
+            android:layout_marginTop="275dp"
+/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_1"
+            android:text="  12:45"
+            android:layout_toRightOf="@+id/tv_bar"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_below="@id/tv_studio"
+            android:layout_marginTop="-20dp"
+
+
+            />
+    </RelativeLayout>
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative_inner"
+        android:layout_below="@+id/relative_3"
+        android:gravity="center"
+        android:layout_marginTop="-70dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_0"
+            android:text="00:00"
+            android:textColor="#E35555"
+            android:textSize="20sp"
+
+
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/tv_bar"
+            android:background="#000"
+            android:layout_toRightOf="@id/tv_0"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_1"
+            android:text="12:45"
+            android:layout_toRightOf="@+id/tv_bar"
+            android:textColor="#E35555"
+            android:textSize="20sp"
+
+
+            />
+    </RelativeLayout>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/relative_4"
+        android:layout_below="@+id/relative_3"
+        android:background="#3F4140">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:background="@drawable/sym"
+        />
+    </RelativeLayout>
+      <ImageView
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:id="@+id/tv_string"
+
+
+    android:background="@drawable/rascalradioman"
+    android:layout_marginTop="4sp"
+          android:layout_marginLeft="120dp"
+
+    />
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/tv_rascal"
+
+
+        android:background="@drawable/rmbglogo"
+
+        android:layout_toRightOf="@+id/tv_string"
+
+        />
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="10dp"
+        android:id="@+id/tv_radio"
+        android:layout_below="@+id/tv_rascal"
+        android:layout_marginLeft="180dp"
+        android:background="@drawable/radio"
+        />
+
+
+</RelativeLayout>

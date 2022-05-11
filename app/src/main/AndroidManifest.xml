@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.loginpage">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LoginPage">
+        <activity android:name=".AlarmActivity"></activity>
+        <activity android:name=".ServiceActivty" />
+        <activity android:name=".NotificationActivity" />
+        <activity
+            android:name=".NavActivity"
+            android:label="@string/title_activity_nav22"
+            android:theme="@style/Theme.LoginPage.NoActionBar" />
+        <activity android:name=".BottomActivity" />
+        <activity android:name=".WhatsAppDemoActivity" />
+        <activity android:name=".WhatsAppActivity" />
+        <activity android:name=".FragmentDemo2Activity" />
+        <activity android:name=".FragmentDemoActivity" />
+        <activity android:name=".BActivity" />
+        <activity android:name=".AActivity" />
+        <activity android:name=".CustomSpinnerActivity" />
+        <activity android:name=".CustomGridActivity" />
+        <activity android:name=".CustomListActivity" />
+        <activity android:name=".SimpleGridView" />
+        <activity android:name=".DateTimeActivity" />
+        <activity android:name=".ListMainActivity2" />
+        <activity android:name=".AlertDialog" />
+        <activity android:name=".SpinnerActivity" />
+        <activity android:name=".HomeDialog" />
+        <activity android:name=".SeekBArMainActivity" />
+        <activity android:name=".ImagePickActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".LinearButton" />
+        <activity android:name=".LinearPrac" />
+        <activity android:name=".Linear2" />
+        <activity android:name=".LinearActivity" />
+        <activity android:name=".RadioRascal" />
+        <activity android:name=".RelativePractiseInstagram" />
+        <activity android:name=".loginrelative" />
+        <activity android:name=".loginprac" />
+        <activity android:name=".LumiaScreen" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".MyService" />
+        <receiver android:name=".MyBroadcast"/>
+    </application>
+
+</manifest>

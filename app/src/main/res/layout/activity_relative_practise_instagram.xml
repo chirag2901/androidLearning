@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+   >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:paddingHorizontal="30dp">
+
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:layout_marginTop="100dp"
+            android:src="@drawable/instagram" />
+
+        <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:background="@drawable/inner_bg"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/img_logo"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+
+            android:paddingVertical="12dp"
+            android:paddingHorizontal="20dp"
+        android:singleLine="true"
+                android:textSize="15dp"
+                android:textColorHint="@color/white"/>
+
+            <EditText
+                android:id="@+id/edt_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_email"
+                android:layout_marginTop="1dp"
+                android:hint="Password"
+                android:background="@drawable/inner_bg"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:padding="12dp"
+
+                android:singleLine="true"
+                android:textSize="15dp"
+
+                android:textColorHint="@color/white"/>
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/edt_password"
+            android:background="@drawable/button"
+            android:drawablePadding="60dp"
+
+            android:hint="Login"
+            android:textSize="18dp"
+            android:textColorHint="#fff" />
+        <TextView
+            android:id="@+id/tv_fp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_login"
+            android:gravity="center"
+            android:text="Forgot your login details?Get help signing in."
+            android:layout_centerHorizontal="true"
+            android:paddingVertical="20dp"
+            android:textColor="#E4EBF1"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_fp"
+            android:gravity="center"
+            android:text="--------or----------"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:paddingVertical="20dp"
+            android:textColor="#E4EBF1"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/l_fb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_fp"
+            android:gravity="center"
+            android:text="LOGIN WITH FACEBOOK."
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:paddingVertical="20dp"
+            android:textColor="#E4EBF1"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+        <android.widget.Button
+            android:id="@+id/btn_signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:singleLine="true"
+            android:background="@drawable/button"
+            android:paddingHorizontal="100dp"
+            android:paddingVertical="5dp"
+            android:hint="Dont have an account?SignUp."
+            android:textSize="15dp"
+            android:textColorHint="#7CFFFFFF" />
+    </RelativeLayout>

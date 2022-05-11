@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginprac"
+    android:id="@+id/relative_1"
+    android:background="@drawable/loginprac"
+    android:padding="30dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_hello"
+        android:layout_marginTop="135dp"
+        android:text="Hello there,"
+        android:textSize="35sp"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_welcome"
+        android:layout_below="@id/tv_hello"
+        android:text="welcome back"
+        android:textColor="#fff"
+        android:textSize="35sp"
+        android:fontFamily="monospace"/>
+
+    <EditText
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_welcome"
+        android:layout_marginTop="75dp"
+        android:hint="E-mail"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:paddingVertical="20dp"
+        android:singleLine="true"
+        android:textColor="#fff"
+        android:textColorHint="#959191"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_password"
+        android:layout_below="@id/tv_email"
+        android:hint="Password"
+          android:textColor="#fff"
+        android:textColorHint="#959191"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:singleLine="true"
+          android:paddingVertical="20dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_fp"
+        android:text="Forgot your Password?"
+        android:textColor="#959191"
+        android:layout_below="@id/tv_password"
+        android:gravity="center"
+        android:paddingVertical="35dp"
+
+         />
+
+
+     <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:id="@+id/btn_signin"
+android:layout_below="@id/tv_fp"
+         android:background="@drawable/btn_signin"
+         android:layout_marginHorizontal="120dp"
+        android:text="Sign In"
+         android:textColor="#fff"
+
+        />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_below="@id/btn_signin"
+    android:layout_centerHorizontal="true">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_new"
+        android:textColor="#959191"
+        android:text="New Here ? "
+        android:textSize="18sp"
+        android:textColorHint="#959191"
+
+
+        android:layout_marginTop="55dp"
+
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_signup"
+            android:layout_toRightOf="@id/tv_new"
+            android:text="SignUp intead"
+
+            android:textSize="18sp"
+            android:textColor="#959191"
+
+                android:layout_marginTop="55dp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

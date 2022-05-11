@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlarmActivity"
+    android:orientation="vertical"
+    android:background="@drawable/androidlogin"
+    android:padding="16dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_alarm"
+
+        android:padding="16dp"
+        android:hint="Alarm Time"
+       android:textColorHint="#0E0E0E"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        />
+    <android.widget.Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnalarm"
+        android:layout_marginTop="30dp"
+        android:text="Alarm"
+
+        android:background="@drawable/button"/>
+
+</LinearLayout>

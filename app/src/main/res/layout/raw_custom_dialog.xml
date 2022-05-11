@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_custom_dialog"
+    android:padding="30dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_tag_faces_24"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YES!!"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_data"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:hint="ENter Data"/>
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_submit"
+        android:background="@drawable/btn_signin"
+        android:layout_marginHorizontal="40dp"
+        android:text="Submit"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
